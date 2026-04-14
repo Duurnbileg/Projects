@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin-inline: auto;
+}
+
+#hero {
+  background-image: url(/Images/sec1-bg.png);
+  height: 773px;
+}
+
+#headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 118px;
+  height: 100px;
+}
+
+.logo {
+  height: 34px;
+  width: 100px;
+}
+#navButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.navButton {
+  height: 22px;
+  width: 100px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+#user {
+  height: 20px;
+  width: 20px;
+}
+
+#languageChanger {
+  height: 40px;
+  width: 40px;
+  border-radius: 24px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#pure {
+  font-size: 80px;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  color: #e8edf2b8;
+  height: 80px;
+  margin: 0;
+}
+
+#awaits {
+  font-size: 250px;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  color: #fdfdfefa;
+  height: 250px;
+  margin: 0;
+}
+
+#heronumber {
+  font-size: 64px;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  color: #ffffffcc;
+  height: 64px;
+  margin: 0;
+}
+
+#heroTextContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+#location {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #d8e4e9;
+}
+
+.card {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow:
+    -8px -8px #83b5d3,
+    8px 8px #9fc6de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cardText {
+  font-size: 37px;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  color: #fdfdfecc;
+  text-align: center;
+  text-shadow: 0px 4px 4px #000000a6;
+  z-index: 3;
+}
+
+.cardImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background-color: rgba(157, 184, 218, 0.2);
+  z-index: 1;
+}
+
+.cardImg:hover {
+  filter: brightness(0.7);
+}
+
+#roadmap {
+  height: 902px;
+  background-image: url(/Images/sec3-bg.png);
+  background-size: cover;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+
+.titleTextContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.bigTitleText {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  text-align: center;
+  margin: 0;
+}
+
+.smallTitleText {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #18181bb2;
+  margin: 0;
+}
+
+#roadCardContainer {
+  width: 1200px;
+  height: 640px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.roadCard {
+  width: 453px;
+  height: 112px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 30px;
+  position: relative;
+}
+
+.roadImage {
+  height: 245px;
+  width: 245px;
+  position: absolute;
+  opacity: 0;
+}
+
+/* .roadCard:hover .roadImage {
+  opacity: 1;
+} */
+
+/* #cardBg-1:hover ~ #day1Position {
+  opacity: 1;
+} */
+
+#roadCardContainer:has(.cardBg-1:hover) #day1Position {
+  opacity: 1;
+}
+
+.roadCard:hover {
+  outline: white 4px solid;
+}
+
+.cardTextCon {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  gap: 4px;
+}
+
+.bigText {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+}
+
+.labelCon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.LabelText {
+  font-weight: 400;
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  margin: 0;
+}
+
+.labelIcon {
+  height: 14px;
+  width: 14px;
+}
+
+.DateContainer {
+  height: 52px;
+  width: 48px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+}
+
+#day1Position {
+  top: 65px;
+  left: 912px;
+}
+
+#day2Position {
+  bottom: 420px;
+  left: 712px;
+}
+
+#day3Position {
+  top: 82px;
+  left: 583px;
+}
+
+#day4Position {
+  bottom: 458px;
+  left: 532px;
+}
+
+#day5Position {
+  bottom: 458px;
+  left: 700px;
+}
+
+.cardBg-1 {
+  background-color: #eee9d9;
+}
+.cardBg-2 {
+  background-color: #8bb8c1cc;
+}
+.cardBg-3 {
+  background-color: #aad8d7cc;
+}
+.cardBg-4 {
+  background-color: #8bc0bdcc;
+}
+.cardBg-5 {
+  background-color: #97cce0cc;
+}
