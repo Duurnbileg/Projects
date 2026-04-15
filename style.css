@@ -241,18 +241,6 @@ body {
   opacity: 1;
 }
 
-/* #priceCardcon:has(.priceCard:hover) .priceCardBtn {
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 999px;
-  height: 48px;
-  width: 100%;
-  color: white;
-} */
-
 .roadCard:hover {
   outline: white 4px solid;
 }
@@ -377,8 +365,8 @@ body {
 
 .priceCard:hover {
   box-shadow:
-    -8px -8px #2e4147,
-    8px 8px #29728b;
+    -8px -8px #2e414740,
+    8px 8px #29728b40;
 }
 
 .priceCard:hover .priceCardBtn {
