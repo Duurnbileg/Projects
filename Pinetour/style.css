@@ -12,7 +12,7 @@ body {
 }
 
 #hero {
-  background-image: url(/Pinetour/assets/sec1-bg.png);
+  background-image: url(/assets/sec1-bg.png);
   height: 773px;
 }
 
@@ -157,7 +157,7 @@ body {
 
 #roadmap {
   height: 902px;
-  background-image: url(/Pinetour/assets/sec3-bg.png);
+  background-image: url(/assets/sec3-bg.png);
   background-size: cover;
   padding-top: 120px;
   display: flex;
@@ -336,7 +336,7 @@ body {
 
 #price {
   height: 1120px;
-  background-image: url(/Pinetour/assets/sec4-bg.png);
+  background-image: url(/assets/sec4-bg.png);
   background-size: cover;
   display: flex;
   padding-top: 40px;
